@@ -5,6 +5,10 @@ import useFetch from "../hooks/useFetch";
 export default function DayList() {
     const days = useFetch("http://localhost:3001/days"); //custom hook 사용
 
+    if(days.length===0) {
+      return <span>Loading...</span>
+    }
+
 //   const [days, setDays] = useState([]);
 
 //   useEffect(() => {
