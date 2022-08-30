@@ -38,13 +38,16 @@ a {
   position: absolute;
   top: 10px;
   right: 0;
+  
 }
 
+
 .header .link {
-  border: 1px solid #333;
+  border: 1px solid rgb(50, 84, 83);
   padding: 10px;
   margin-left: 10px;
-  background-color: #efefef;
+  background-color: #A5DDE0;
+  color: #fff;
   font-weight: bold;
   border-radius: 4px;
 }
@@ -67,7 +70,7 @@ a {
   color: #fff;
   text-align: center;
   border-radius: 10px;
-  background-color: dodgerblue;
+  background-color: #A5DDE0;
 }
 
 table {
